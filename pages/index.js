@@ -232,7 +232,7 @@ export default function Home() {
                  <h1 className=' mt-4  text-center text-white text-5xl font-burtons'>CONTACT ME</h1>
                    <input placeholder='Name' type="text" className=' bg-gray-600 text-white flex justify-center ml-auto px-4 mr-auto mt-6 w-80 h-9 '/>
                    <input placeholder='Email' type="email" className=' bg-gray-600 text-white flex justify-center ml-auto px-4 mr-auto mt-6  w-80 h-9'/>
-                    <textarea placeholder='Message' name="message" id="" cols="38" rows="10" className=' bg-gray-700 flex text-white px-3 justify-center mt-6 ml-auto mr-auto py-2' ></textarea>
+                    <textarea placeholder='Message' name="message" id="" cols="38" rows="10" className=' bg-gray-700 flex text-white px-3 justify-center w-auto mt-6 ml-auto mr-auto py-2' ></textarea>
                    <button className=' bg-amber-400 flex justify-center mt-6 ml-auto mr-auto w-60 text-darkbg py-2'><AiOutlineSend/></button>
                </div>
             </form>
