@@ -18,8 +18,8 @@ import redux from "../public/redux.png";
 import tailwind from "../public/tailwind.png";
 import github from "../public/github.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
+import Hulu_clone from "../public/Hulu_clone.png";
+import Airbnb1 from "../public/Airbnb1.jpg";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
@@ -168,7 +168,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={Hulu_clone}
 
                 
               />
@@ -180,7 +180,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web2}
+                src={Airbnb1}
               />
             </div>
             <div className="basis-1/3 flex-1">
