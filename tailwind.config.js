@@ -15,7 +15,7 @@ module.exports = {
       },
       colors: {
         fakewhite : "#E1EEEC",
-        darkbg : "#27232C",
+        darkbg : "#0D1117",
         lighttext : "#1F2428",
         // lighttext : "#254B43 ",
         gd_text_l : "#4CA5FF",
