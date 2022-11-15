@@ -21,6 +21,8 @@ import Image from "next/image";
 import Hulu_clone from "../public/Hulu_clone.png";
 import Airbnb2 from "../public/Airbnb1.jpg";
 import portfolio from "../public/portfolio.jpg";
+import tipcalc from "../public/tipcalc.jpg";
+import calcu from "../public/calcu.jpg";
 
 
 
@@ -223,8 +225,8 @@ export default function Home() {
                 </div>
               </a>
 
-
-             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
+            <a href="" target="_blank">
+            <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -234,6 +236,8 @@ export default function Home() {
                 src={Airbnb2} 
               />
              </div>
+            </a>
+             <a href="https://codepen.io/montu-gohain/pen/jOxKvpg" target="_blank">
              <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
@@ -241,19 +245,23 @@ export default function Home() {
                 height={300}
            
                 layout="responsive"
-                src={Airbnb2} 
+                src={tipcalc} 
               />
              </div>
-             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
+             </a>
+            
+          <a href="" target="_blank">
+          <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
                 width={200}
                 height={300}
            
                 layout="responsive"
-                src={Airbnb2} 
+                src={calcu} 
               />
              </div>
+          </a>
 
 
           </div>
