@@ -20,6 +20,8 @@ import github from "../public/github.png";
 import Image from "next/image";
 import Hulu_clone from "../public/Hulu_clone.png";
 import Airbnb2 from "../public/Airbnb1.jpg";
+import portfolio from "../public/portfolio.jpg";
+
 
 
 
@@ -41,7 +43,7 @@ export default function Home() {
           <h1 className=' text-xl font-burtons dark:text-yellow-300'>Mon2.Dev</h1>
           <ul className='flex items-center'>
             <li>
-              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl'/>
+              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-yellow-400'/>
             </li>
             <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
           </ul>
@@ -52,14 +54,31 @@ export default function Home() {
         <a className=' bg-yellow-400 text-xl text-gray-800 rounded-md font-mono mt-5 mb-5 p-2' href="mailto:montugohaindb@gmail.com">Contact Me</a>
 
         </div>
-        <div className='text-5xl mt-3 flex justify-center gap-16 py-3 text-gray-600'>
+        <div className='text-5xl cursor-pointer mt-3 flex justify-center gap-16 py-3 text-gray-600'>
 
 
+          <a href="https://twitter.com/home" target="_blank" className='hover:text-blue-400'>
           <AiFillTwitterCircle />
+
+          </a>
+
+          <a href="https://www.linkedin.com/in/montu-gohain-517b61202/?originalSubdomain=in" target="_blank" className='hover:text-blue-600'>
           <AiFillLinkedin />
+
+          </a>
+
+          <a href="https://www.youtube.com/" target="_blank" className='hover:text-rose-600'>
           <AiFillYoutube />
-          <AiFillGithub />
+
+          </a>
+
+          <a href="https://github.com/Montu-Gohain" target="_blank" className=' hover:text-gray-900 dark:hover:text-gray-300' >
+          <AiFillGithub/>
+          </a>
         </div>
+
+
+
         <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
             <Image src={deved} layout="fill" objectFit="cover" />
         </div>
@@ -163,19 +182,22 @@ export default function Home() {
 
           <div className='grid grid-cols-3'>
 
-             <div className='group flex  rounded-md m-6 hover:shadow-gray-800  transition duration-300 ease-in bg-white hover:shadow-2xl hover:cursor-pointer dark:hover:shadow-cyan-600 '>
+            <a href="https://hulu-clone-live.vercel.app/" target="_blank">
+            <div className='group m-6 cursor-pointer  hover:shadow-gray-800  transition duration-300 ease-in hover:shadow-2xl dark:hover:shadow-teal-400  '>
              <Image
-                className=" rounded-md"
-                
-                
+                className="rounded-md"
+                width={200}
+                height={300}
+           
                 layout="responsive"
                 src={Hulu_clone} 
               />
              </div>
+            </a>
 
 
-
-             <div className='group m-6 cursor-pointer hover:shadow-gray-800  transition duration-300 ease-in hover:shadow-2xl dark:hover:shadow-cyan-600  '>
+            <a href="https://funny-capybara-b62d02.netlify.app/" target="_blank">
+            <div className='group m-6 cursor-pointer hover:shadow-gray-800  transition duration-300 ease-in hover:shadow-2xl dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -185,19 +207,24 @@ export default function Home() {
                 src={Airbnb2} 
               />
              </div>
+            </a>
+           
 
-             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
-             <Image
-                className="rounded-md"
-                width={200}
-                height={300}
-           
-                layout="responsive"
-                src={Airbnb2} 
-              />
-             </div>
+              <a href="https://portfolio-website-mu-opal.vercel.app/" target="_blank">
+              <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
+                <Image
+                    className="rounded-md"
+                    width={200}
+                    height={300}
+              
+                    layout="responsive"
+                    src={portfolio} 
+                  />
+                </div>
+              </a>
 
-             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
+
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -207,7 +234,7 @@ export default function Home() {
                 src={Airbnb2} 
               />
              </div>
-             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -217,7 +244,7 @@ export default function Home() {
                 src={Airbnb2} 
               />
              </div>
-             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
                 width={200}
