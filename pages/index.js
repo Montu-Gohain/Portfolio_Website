@@ -19,11 +19,7 @@ import tailwind from "../public/tailwind.png";
 import github from "../public/github.png";
 import Image from "next/image";
 import Hulu_clone from "../public/Hulu_clone.png";
-import Airbnb1 from "../public/Airbnb1.jpg";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import Airbnb2 from "../public/Airbnb1.jpg";
 
 
 
@@ -160,70 +156,145 @@ export default function Home() {
               From the begining of my college I was curious about web development.So, tried to make some realworld project or clones of existing websites to learn 
               about web development.My projects at a glace. </p> 
             
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={Hulu_clone}
+//           </div>
+//           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+//             <div className="basis-1/3 flex-1">
+//               <Image
+//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+//                 width={"100%"}
+//                 height={"100%"}
+//                 layout="responsive"
+//                 src={Hulu_clone}
 
                 
-              />
+//               />
             
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={Airbnb1}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-150 ease-out hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1 relative ">
+//             </div>
+//             <div className="basis-1/3 flex-1">
+//               <Image
+//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+//                 width={"100%"}
+//                 height={"100%"}
+//                 layout="responsive"
+//                 src={Airbnb1}
+//               />
+//             </div>
+//             <div className="basis-1/3 flex-1">
+//               <Image
+//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+//                 width={"100%"}
+//                 height={"100%"}
+//                 layout="responsive"
+//                 src={web3}
+//               />
+//             </div>
+//             <div className="basis-1/3 flex-1">
+//               <Image
+//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+//                 width={"100%"}
+//                 height={"100%"}
+//                 layout="responsive"
+//                 src={web4}
+//               />
+//             </div>
+//             <div className="basis-1/3 flex-1">
+//               <Image
+//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-150 ease-out hover:ease-in hover:scale-100 cursor-pointer"
+//                 width={"100%"}
+//                 height={"100%"}
+//                 layout="responsive"
+//                 src={web5}
+//               />
+//             </div>
+//             <div className="basis-1/3 flex-1 relative ">
             
-              <a href="https://github.com/Montu-Gohain">
-              <Image
-                className="  scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-50 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
+//               <a href="https://github.com/Montu-Gohain">
+//               <Image
+//                 className="  scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-50 cursor-pointer"
+//                 width={"100%"}
+//                 height={"100%"}
+//                 layout="responsive"
+//                 src={web6}
                 
+//               />
+//               </a>
+//             </div>
+//           </div>
+          <div className='grid grid-cols-3'>
+
+             <div className='group flex border-blue-400  border-4 rounded-md m-6 transition duration-300 ease-in bg-white hover:shadow-cyan-600 hover:shadow-2xl hover:cursor-pointer'>
+             <Image
+                className=" rounded-md"
+                
+                
+                layout="responsive"
+                src={Hulu_clone} 
               />
-              </a>
-            </div>
+
+              {/* <div className=''>Hulu clone</div>
+              <div className='techstack'></div> */}
+
+             </div>
+
+
+
+             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl hover:shadow-red-600'>
+             <Image
+                className="rounded-md"
+                width={200}
+                height={300}
+           
+                layout="responsive"
+                src={Airbnb2} 
+              />
+             </div>
+
+             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <Image
+                className="rounded-md"
+                width={200}
+                height={300}
+           
+                layout="responsive"
+                src={Airbnb2} 
+              />
+             </div>
+
+             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <Image
+                className="rounded-md"
+                width={200}
+                height={300}
+           
+                layout="responsive"
+                src={Airbnb2} 
+              />
+             </div>
+             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <Image
+                className="rounded-md"
+                width={200}
+                height={300}
+           
+                layout="responsive"
+                src={Airbnb2} 
+              />
+             </div>
+             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <Image
+                className="rounded-md"
+                width={200}
+                height={300}
+           
+                layout="responsive"
+                src={Airbnb2} 
+              />
+             </div>
+
+
           </div>
+
+
 
           <form action="https://formsubmit.co/montugohaindb@gmail.com" method="POST">
 
