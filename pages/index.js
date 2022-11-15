@@ -149,77 +149,83 @@ export default function Home() {
            
           </div>
         </section>
+
+
+
         <section className="py-10">
           <div>
             <h3 className=" bg-gd_text_r px-9 py-8 text-3xl  flex justify-between ">PROJECTS<AiOutlineDoubleRight/></h3> 
             <p className="text-md py-2 leading-8  dark:text-gray-200">
               From the begining of my college I was curious about web development.So, tried to make some realworld project or clones of existing websites to learn 
               about web development.My projects at a glace. </p> 
-            
-//           </div>
-//           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-//             <div className="basis-1/3 flex-1">
-//               <Image
-//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-//                 width={"100%"}
-//                 height={"100%"}
-//                 layout="responsive"
-//                 src={Hulu_clone}
+          </div>
+
+          {/* Holding : Work  */}
+{/* 
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+              <Image
+                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={Hulu_clone}
 
                 
-//               />
+              />
             
-//             </div>
-//             <div className="basis-1/3 flex-1">
-//               <Image
-//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-//                 width={"100%"}
-//                 height={"100%"}
-//                 layout="responsive"
-//                 src={Airbnb1}
-//               />
-//             </div>
-//             <div className="basis-1/3 flex-1">
-//               <Image
-//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-//                 width={"100%"}
-//                 height={"100%"}
-//                 layout="responsive"
-//                 src={web3}
-//               />
-//             </div>
-//             <div className="basis-1/3 flex-1">
-//               <Image
-//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-//                 width={"100%"}
-//                 height={"100%"}
-//                 layout="responsive"
-//                 src={web4}
-//               />
-//             </div>
-//             <div className="basis-1/3 flex-1">
-//               <Image
-//                 className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-150 ease-out hover:ease-in hover:scale-100 cursor-pointer"
-//                 width={"100%"}
-//                 height={"100%"}
-//                 layout="responsive"
-//                 src={web5}
-//               />
-//             </div>
-//             <div className="basis-1/3 flex-1 relative ">
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={Airbnb2}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web3}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web4}
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-150 ease-out hover:ease-in hover:scale-100 cursor-pointer"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web5}
+              />
+            </div>
+            <div className="basis-1/3 flex-1 relative ">
             
-//               <a href="https://github.com/Montu-Gohain">
-//               <Image
-//                 className="  scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-50 cursor-pointer"
-//                 width={"100%"}
-//                 height={"100%"}
-//                 layout="responsive"
-//                 src={web6}
+              <a href="https://github.com/Montu-Gohain">
+              <Image
+                className="  scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-50 cursor-pointer"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web6}
                 
-//               />
-//               </a>
-//             </div>
-//           </div>
+              />
+              </a>
+            </div>
+          </div> */}
+
           <div className='grid grid-cols-3'>
 
              <div className='group flex border-blue-400  border-4 rounded-md m-6 transition duration-300 ease-in bg-white hover:shadow-cyan-600 hover:shadow-2xl hover:cursor-pointer'>
@@ -295,6 +301,9 @@ export default function Home() {
           </div>
 
 
+          
+
+
 
           <form action="https://formsubmit.co/montugohaindb@gmail.com" method="POST">
 
@@ -303,7 +312,7 @@ export default function Home() {
                  <h1 className=' mt-4  text-center text-white text-5xl font-burtons'>CONTACT ME</h1>
                    <input placeholder='Name' type="text" className=' bg-gray-600 text-white flex justify-center ml-auto px-4 mr-auto mt-6 w-80 h-9 '/>
                    <input placeholder='Email' type="email" className=' bg-gray-600 text-white flex justify-center ml-auto px-4 mr-auto mt-6  w-80 h-9'/>
-                    <textarea placeholder='Message' name="message" id="" cols="38" rows="10" className=' bg-gray-700 flex text-white px-3 justify-center w-auto mt-6 ml-auto mr-auto py-2' ></textarea>
+                    <textarea placeholder='Message' name="message" id="" cols="38" rows="10" className=' bg-gray-700 flex text-white px-3 justify-center mt-6 ml-auto mr-auto py-2' ></textarea>
                    <button className=' bg-amber-400 flex justify-center mt-6 ml-auto mr-auto w-60 text-darkbg py-2'><AiOutlineSend/></button>
                </div>
             </form>
