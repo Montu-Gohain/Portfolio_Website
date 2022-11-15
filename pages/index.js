@@ -160,75 +160,10 @@ export default function Home() {
               about web development.My projects at a glace. </p> 
           </div>
 
-          {/* Holding : Work  */}
-{/* 
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={Hulu_clone}
-
-                
-              />
-            
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={Airbnb2}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className=" scale-75 rounded-lg object-cover hover:opacity-30 transition duration-150 ease-out hover:ease-in hover:scale-100 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1 relative ">
-            
-              <a href="https://github.com/Montu-Gohain">
-              <Image
-                className="  scale-75 rounded-lg object-cover hover:opacity-30 transition duration-2500  ease-in hover:ease-in hover:scale-50 cursor-pointer"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-                
-              />
-              </a>
-            </div>
-          </div> */}
 
           <div className='grid grid-cols-3'>
 
-             <div className='group flex border-blue-400  border-4 rounded-md m-6 transition duration-300 ease-in bg-white hover:shadow-cyan-600 hover:shadow-2xl hover:cursor-pointer'>
+             <div className='group flex  rounded-md m-6 hover:shadow-gray-800  transition duration-300 ease-in bg-white hover:shadow-2xl hover:cursor-pointer dark:hover:shadow-cyan-600 '>
              <Image
                 className=" rounded-md"
                 
@@ -236,15 +171,11 @@ export default function Home() {
                 layout="responsive"
                 src={Hulu_clone} 
               />
-
-              {/* <div className=''>Hulu clone</div>
-              <div className='techstack'></div> */}
-
              </div>
 
 
 
-             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl hover:shadow-red-600'>
+             <div className='group m-6 cursor-pointer hover:shadow-gray-800  transition duration-300 ease-in hover:shadow-2xl dark:hover:shadow-cyan-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -255,7 +186,7 @@ export default function Home() {
               />
              </div>
 
-             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -266,7 +197,7 @@ export default function Home() {
               />
              </div>
 
-             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -276,7 +207,7 @@ export default function Home() {
                 src={Airbnb2} 
               />
              </div>
-             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
              <Image
                 className="rounded-md"
                 width={200}
@@ -286,7 +217,7 @@ export default function Home() {
                 src={Airbnb2} 
               />
              </div>
-             <div className='group m-6 transition duration-300 ease-in hover:shadow-2xl shadow-blue-600'>
+             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-cyan-600  '>
              <Image
                 className="rounded-md"
                 width={200}
