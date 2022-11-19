@@ -24,6 +24,7 @@ import portfolio from "../public/portfolio.jpg";
 import tipcalc from "../public/tipcalc.jpg";
 import calcu from "../public/calcu.jpg";
 import todo from "../public/todo.jpg";
+import samuraiFight from "../public/sf.jpg";
 
 
 
@@ -199,6 +200,21 @@ export default function Home() {
             </a>
 
 
+            
+            <a href="https://sparkly-yeot-313a12.netlify.app/" target="_blank">
+              <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
+                <Image
+                    className="rounded-md"
+                    width={200}
+                    height={300}
+              
+                    layout="responsive"
+                   src={samuraiFight} 
+                  />
+                </div>
+              </a>
+              
+
             <a href="https://funny-capybara-b62d02.netlify.app/" target="_blank">
             <div className='group m-6 cursor-pointer hover:shadow-gray-800  transition duration-300 ease-in hover:shadow-2xl dark:hover:shadow-teal-600  '>
              <Image
@@ -213,20 +229,8 @@ export default function Home() {
             </a>
            
 
-              <a href="https://portfolio-website-mu-opal.vercel.app/" target="_blank">
-              <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
-                <Image
-                    className="rounded-md"
-                    width={200}
-                    height={300}
-              
-                    layout="responsive"
-                    src={portfolio} 
-                  />
-                </div>
-              </a>
 
-            <a href="" target="_blank">
+            <a href="https://portfolio-website-mu-opal.vercel.app/" target="_blank">
             <div className='group m-6 cursor-pointer transition duration-300 ease-in hover:shadow-2xl hover:shadow-gray-800 dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
@@ -234,7 +238,7 @@ export default function Home() {
                 height={300}
            
                 layout="responsive"
-                src={Airbnb2} 
+                src={portfolio} 
               />
              </div>
             </a>
