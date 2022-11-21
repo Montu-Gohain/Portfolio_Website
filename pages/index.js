@@ -229,7 +229,7 @@ export default function Home() {
             </a>
 
 
-            <a href="https://637a32d9532976000982298d--cute-halva-e0fb3f.netlify.app/" target="_blank">
+            <a href="https://assignment-react-ten.vercel.app/" target="_blank">
             <div className='group m-6 cursor-pointer hover:shadow-gray-800  transition duration-300 ease-in hover:shadow-2xl dark:hover:shadow-teal-600  '>
              <Image
                 className="rounded-md"
